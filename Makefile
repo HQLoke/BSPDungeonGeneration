@@ -1,7 +1,8 @@
 NAME = bsp
 
 CC     = gcc
-CFLAGS = #-Wall -Wextra -Werror -g3 -fsanitize=address
+CFLAGS = -g3 -fsanitize=address
+#-Wall -Wextra -Werror 
 RM     = rm -f
 
 INC  = -Iinclude 
