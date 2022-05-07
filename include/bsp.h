@@ -10,7 +10,7 @@
 #include <time.h>
 #include <unistd.h>
 
-enum e_size{MIN_LEAF_SIZE = 6};
+enum e_size{MIN_LEAF_SIZE = 6, MAX_LEAF_SIZE = 20};
 
 typedef struct	s_leaf
 {
